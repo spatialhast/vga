@@ -23,6 +23,7 @@ export default {
   methods: {
     getAddressData: function(addressData, placeResultData) {
       this.address = addressData;
+      console.log(addressData);
     }
   }
 };
