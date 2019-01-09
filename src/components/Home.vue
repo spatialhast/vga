@@ -5,6 +5,10 @@
         <vuetify-google-autocomplete
           id="map"
           label="Search Address"
+          append-icon="search"
+          clearable
+          country="GB"
+          required
           v-on:placechanged="getAddressData"
         ></vuetify-google-autocomplete>
       </v-flex>
